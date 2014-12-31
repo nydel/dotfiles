@@ -12,7 +12,7 @@
  '(tool-bar-mode nil))
 
 (setq inferior-lisp-program "/usr/bin/sbcl")  
-(add-to-list 'load-path "/home/username/bin/slime-2.8/")
+(add-to-list 'load-path "~/bin/slime-2.8/")
 
 (require 'slime)
 (slime-setup)
